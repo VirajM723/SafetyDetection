@@ -1,0 +1,12 @@
+[project]
+name = "safety-detection"
+version = "0.2.0"
+description = "PPE (safety gear) image classification with a fine-tuned Vision Transformer"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["safety_detection"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
